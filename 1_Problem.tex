@@ -1,0 +1,23 @@
+% !TeX root = ../StatMech_main.tex
+
+
+	
+	\subsection{2011 Problem 1}
+	Consider \textit{one} atom in a box of volume $ V $.  You are given that the density of states for this particle is:
+	\begin{equation*}
+		\rho(\epsilon) = \frac{V}{4\pi^2}\left(\frac{2m}{\hbar^2}\right)^{3/2}\epsilon^{1/2},
+	\end{equation*}
+	where $ \epsilon $ is the energy and $ m $ is the mass.
+	
+	There is also \textit{one} binding site (imagine it is somewhere on the surface of the box, but this is unimportant) of energy $ - \Delta E $ where $ \Delta E > 0 $.  Hence the particle can either be unbound in the volume of the box \textit{or} bound at the binding site.  The temperature is $ T $.
+	\begin{enumerate}[(a)]
+		\item Find the probability that the atom is bound.
+		\item What is the limit of this probability for $ V \to \infty $?
+		\item At what temperature is the probability of the atom being bound equal to 1/2?
+		\item You might have naively expected that the answer to the previous part would be when $ k_b T \simeq \Delta E $ ($ k_b $ is Boltzmann's constant), since $ \exp(-\Delta E/k_b T) $ is the ratio of the Boltzmann factor for the lowest energy state in the box to that for the bound state.  However, unless $ V $ is really tiny, the temperature is actually much lower than this.  Explain what important piece of physics is missing in the argument which gives $ k_b T \simeq \Delta E $.
+		
+		you may find the following helpful:
+		\begin{equation*}
+			\int_{0}^{\infty} x^{1/2}e^{-x}dx = \Lambda(3/2) = \frac{1}{2}\sqrt{\pi}.
+		\end{equation*}
+	\end{enumerate} 
